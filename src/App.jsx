@@ -8,12 +8,12 @@ function App() {
 		<Routes>
 			<Route
 				path='/'
-				element={<Home />}
-			/>
-			<Route
-				path='/challan-form'
 				element={<FormAddition />}
 			/>
+			{/* <Route
+				path='/challan-form'
+				element={<FormAddition />}
+			/> */}
 		</Routes>
 	);
 }
