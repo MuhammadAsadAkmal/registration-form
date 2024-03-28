@@ -4,11 +4,11 @@ import { jsPDF } from 'jspdf';
 export const ChallanForm = () => {
 	const [studentName, setStudentName] = useState('');
 	const [fatherName, setFatherName] = useState('');
-	const [course, setCourse] = useState('');
+	const [course, setCourse] = useState('Digital marketing');
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		// console.log({ studentName, fatherName, course });
+
 		try {
 			generateChallanPDF();
 
